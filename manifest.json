@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "minify jira",
+  "description": "minify jira",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "axe.png",
+   "default_title": "wipe!"
+  },
+  "permissions": [
+   "activeTab"
+  ],
+  "background": {
+    "scripts": ["wipe.js"],
+	"persistent": false
+  }
+}
