@@ -6,7 +6,10 @@ function write() {
 		chrome.storage.sync.set({
 			nums: nums
 		}, function () {
-			console.log(arguments);
+         document.getElementById('status').innerHTML = 'Saved!';
+         setTimeout(function () {
+            document.getElementById('status').innerHTML = '';
+         }, 800);
 		});
 	}
 }
