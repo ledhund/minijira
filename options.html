@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
    <body>
-      <p>Remove last <input type="text" id="cols-to-remove"/> columns.</p>
-      <div id="status"></div>
-      <button id="save">Save</button>
-      <script src="options.js"></script>
-   </body>
+        <p>Remove last <input type="text" id="cols-to-remove"/> columns.</p>
+        <p>
+            from hosts
+            <input type="text" id="new-host"/>
+            <button id="add-host">Add</button>
+        </p>
+        <p>
+            <select id="added-hosts" multiple></select>
+        </p>
+
+        <div id="status"></div>
+        <button id="save">Save</button>
+        <script src="options.js"></script>
+    </body>
 </html>
