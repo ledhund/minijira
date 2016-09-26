@@ -14,10 +14,10 @@
   },
   "permissions": [
     "activeTab",
+    "tabs",
     "storage",
     "webNavigation",
-    "http://*/",
-    "https://*/"
+    "*://*/*"
   ],
   "background": {
     "scripts": ["wipe.js"],
