@@ -9,7 +9,7 @@
     "chrome_style": true
   },
   "browser_action": {
-    "default_icon": "axe.png",
+    "default_icon": "crossed_out_j.png",
     "default_title": "wipe!"
   },
   "permissions": [
